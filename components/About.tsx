@@ -24,11 +24,11 @@ export default function About({pageInfo}: Props) {
           transition={{ duration: 1.2, }}
           whileInView={{ opacity: 1, x: 0, }}
           src={traditional.src}
-          className="-mb-20 md:mb-0 m-10 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg 
+          className="-mb-20 md:mb-0 m-10 flex-shrink-0 w-56 h-56 scale-50 mt-24 rounded-full object-cover md:rounded-lg 
           md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         />
 
-        <div className='space-y-10 px-0 md:px-10'>
+        <div className='space-y-10 px-0 md:px-10 pt-6'>
           <h4 className="text-4xl font-semibold">
             Here is a <span className="underline decoration-[#47B5FF]/50">little</span> background
           </h4>
