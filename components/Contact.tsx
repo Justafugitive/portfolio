@@ -24,7 +24,7 @@ const Contact = ({}: Inputs) => {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10 scale-75">
         <h4 className="text-4xl font-semibold text-center pt-7 px-8">
           I'm the guy you need, {" "}
           <span className="decoration-[#47B5FF]/50 underline">Let's talk</span>
