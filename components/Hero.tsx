@@ -2,7 +2,7 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircle from './BackgroundCircle'
 import Image from 'next/image'
-import profile from '.././public/BucketHat.jpeg'
+import profile from '.././public/BlackProfile.jpeg'
 import Link from 'next/link'
 import { PageInfo } from '../typings'
 
@@ -25,7 +25,7 @@ export default function Hero({ pageInfo }: Props) {
       <Image
       className="relative rounded-full h-16 w-16 mx-auto object-cover"
       src={profile} 
-      alt="buckethat image"
+      alt="black image"
       width={150}
       height={150}
       />

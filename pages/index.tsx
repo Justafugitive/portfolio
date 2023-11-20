@@ -8,7 +8,7 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import WorkExperience from '../components/WorkExperience';
-import profile from '.././public/BucketHat.jpeg'
+import profile from '.././public/BlackProfile.jpeg'
 import Image from 'next/image'
 import Link from 'next/link';
 import { Experience, PageInfo, Project, Skill, Social } from "../typings";
